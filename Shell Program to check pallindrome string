@@ -1,0 +1,10 @@
+echo "Enter a string"
+read a
+b=$(echo $a | rev)
+if [  "$a" == "$b" ]
+then 
+echo "String is pallindrome"
+else
+echo "Not Pallindrome"
+
+fi
